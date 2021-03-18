@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    height: 50px;
+}
+header nav ul{
+    float: right;
+}
+header nav ul li{
+    float: left;
+    list-style: none;
+    padding: 15px 20px
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+.clear{
+    overflow: hidden;
+}
+.hero-section {
+    width: 100%;
+}
+.hero-content{
+    width:50%;
+    float:left;
+    padding-top: 170px;
+}
+.hero-content h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #324553;
+}
+.colorfull{
+    color: tomato;
+}
+.hero-content p {
+    font-size: 18px;
+}
+button.main-button {
+    padding: 15px 35px;
+    border: none;
+    border-radius: 4px;
+    background: linear-gradient(to right, #e53935, #e35d5b);
+    font-size: 20px;
+    color: #fff;
+    margin-top: 30px;
+}
+.hero-img{
+    width:50%;
+    float:left;
+}
+.hero-img img{
+    width: 75%;
+    margin: 0 auto;
+    display: block;
+}
+.portfolio{
+    width: 100%;
+}
+h1.section-title {
+    margin-top: 100px;
+    text-align: center;
+}
+.portfolio-item {
+    width: 32%;
+    float: left;
+    padding: 20px;
+    background: #EDF1F2;
+    margin: 8px;
+}
+.portfolio-item img{
+    width: 100%;
+}
+
+.portfolio-item h3 {
+    font-size: 28px;
+    color: #324553;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+footer {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+footer h4 {
+    font-size: 36px;
+    color: gray;
+    text-transform: uppercase;
+}
+footer h1 a {
+    text-decoration: none;
+    color: #000;
+    font-size: 42px;
+    line-height: 2;
+}
+.social-icon i {
+    font-size: 33px;
+    padding: 10px;
+    color: tomato;
+}
